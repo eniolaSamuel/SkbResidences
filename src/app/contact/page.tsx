@@ -2,7 +2,7 @@ import ContactForm from "@/components/ContactForm"
 import ContactInfo from "@/components/ContactInfo"
 
 export const metadata = {
-    title: "Contact Us | Justa-Call-Away",
+    title: "Contact Us | SKB Residences",
     description: "Get in touch with us for any inquiries",
 }
 
