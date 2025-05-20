@@ -6,33 +6,33 @@ import Loading from "@/components/Loading"
 import { getApartmentById } from "@/lib/apartments"
 
 export async function generateMetadata({ params }: { params: { id: string } }) {
-    const apartment = await getApartmentById(params.id)
+    try {
+        const apartment = await getApartmentById(params.id)
 
-    if (!apartment) {
+        return {
+            title: `${apartment.name} | SKB Residences`,
+            description: apartment.description,
+        }
+    } catch (error) {
         return {
             title: "Apartment Not Found",
         }
     }
-
-    return {
-        title: `${apartment.name} | Justa-Call-Away`,
-        description: apartment.description,
-    }
 }
 
 export default async function ApartmentPage({ params }: { params: { id: string } }) {
-    const apartment = await getApartmentById(params.id)
+    try {
+        const apartment = await getApartmentById(params.id)
 
-    if (!apartment) {
+        return (
+            <div className="container mx-auto px-4 py-12">
+                <Suspense fallback={<Loading />}>
+                    <ApartmentDetail apartment={apartment} />
+                    <BookingForm apartment={apartment} />
+                </Suspense>
+            </div>
+        )
+    } catch (error) {
         notFound()
     }
-
-    return (
-        <div className="container mx-auto px-4 py-12">
-            <Suspense fallback={<Loading />}>
-                <ApartmentDetail apartment={apartment} />
-                <BookingForm apartment={apartment} />
-            </Suspense>
-        </div>
-    )
 }
