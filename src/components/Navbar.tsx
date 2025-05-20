@@ -77,7 +77,7 @@ export default function Navbar() {
                                 Contact
                             </Link>
                             <a
-                                href="https://wa.me/1234567890"
+                                href="https://wa.me/07080772782"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition-colors mx-4"
