@@ -7,15 +7,15 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 const testimonials = [
     {
         id: 1,
-        name: "John Doe",
-        location: "Lekki",
+        name: "K.P",
+        location: "Adeniyi Jones",
         image: "/placeholder.svg?height=100&width=100",
         text: "The apartment exceeded my expectations. It was clean, spacious, and had all the amenities I needed. The location was perfect, and the staff was very helpful. I would definitely stay here again.",
         rating: 5,
     },
     {
         id: 2,
-        name: "Jane Smith",
+        name: "Doctor",
         location: "Victoria Island",
         image: "/placeholder.svg?height=100&width=100",
         text: "I had a wonderful experience staying at this apartment. The check-in process was smooth, and the apartment was exactly as described. The location was convenient, and I felt safe throughout my stay.",
