@@ -9,7 +9,8 @@ export default function ContactSection() {
                     <div className="bg-teal-500 text-white p-8 md:p-12">
                         <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
                         <p className="mb-8">
-                            Have questions about our apartments or booking process? We are here to help! Reach out to us through any of
+                            Have questions about our apartments or booking process?
+                            <br/>We are here to help! Reach out to us through any of
                             the following channels.
                         </p>
 
