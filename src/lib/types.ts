@@ -13,9 +13,11 @@ export interface Apartment {
     images: string[]
     amenities: string[]
     rules: string[]
+    featured?: boolean
 }
 
 export interface Booking {
+    id?: string
     apartmentId: string
     checkIn: string
     checkOut: string
@@ -25,11 +27,20 @@ export interface Booking {
     phone: string
     totalPrice: number
     nights: number
+    status?: string
+    created_at?: string
 }
 
 export interface ContactMessage {
+    id?: string
     name: string
     email: string
     subject: string
     message: string
+    created_at?: string
+}
+
+export interface BookingDetails extends Booking {
+    apartmentName: string
+    bookingId: string
 }
