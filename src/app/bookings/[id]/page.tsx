@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
             title: `${apartment.name} | SKB Residences`,
             description: apartment.description,
         }
-    } catch (error) {
+    } catch {
         return {
             title: "Apartment Not Found",
         }
@@ -32,7 +32,7 @@ export default async function ApartmentPage({ params }: { params: { id: string }
                 </Suspense>
             </div>
         )
-    } catch (error) {
+    } catch {
         notFound()
     }
 }
