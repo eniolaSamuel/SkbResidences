@@ -34,9 +34,8 @@ export default function ContactInfo() {
                     <Clock size={24} className="text-teal-500 mr-4 mt-1" />
                     <div>
                         <h3 className="font-medium">Business Hours</h3>
-                        <p className="text-gray-600">Monday - Friday: 9am - 6pm</p>
-                        <p className="text-gray-600">Saturday: 10am - 4pm</p>
-                        <p className="text-gray-600">Sunday: Closed</p>
+                        <p className="text-gray-600">Monday - Friday: 7am - 7pm</p>
+                        <p className="text-gray-600">Saturday - Sunday: 8am - 5pm</p>
                     </div>
                 </div>
             </div>
