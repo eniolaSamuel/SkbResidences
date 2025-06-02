@@ -15,7 +15,8 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
         }
     } catch {
         return {
-            title: "Apartment Not Found",
+            title: "Apartment Not Found | SKB Residences",
+            description: "The apartment you're looking for could not be found.",
         }
     }
 }
