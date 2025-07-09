@@ -40,7 +40,6 @@ export default function ApartmentFilters() {
     const [maxPrice, setMaxPrice] = useState(searchParams.get("maxPrice") || "150000")
     const [priceRange, setPriceRange] = useState(searchParams.get("maxPrice") || "150000")
 
-    // Update maxPrice when priceRange slider changes
     useEffect(() => {
         setMaxPrice(priceRange)
     }, [priceRange])
@@ -69,7 +68,6 @@ export default function ApartmentFilters() {
         router.push("/bookings")
     }
 
-    // Format price to Naira
     const formatPrice = (price: string) => {
         return `₦${Number.parseInt(price).toLocaleString()}`
     }
@@ -89,7 +87,6 @@ export default function ApartmentFilters() {
 
             <div className={`${isFiltersOpen ? "block" : "hidden"} md:block`}>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    {/* Zone Filter */}
                     <div>
                         <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center gap-1">
                             <MapPin size={16} />
@@ -108,7 +105,6 @@ export default function ApartmentFilters() {
                         </select>
                     </div>
 
-                    {/* Apartment Type Filter */}
                     <div>
                         <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center gap-1">
                             <Home size={16} />
@@ -127,7 +123,6 @@ export default function ApartmentFilters() {
                         </select>
                     </div>
 
-                    {/* Booking Purpose Filter */}
                     <div>
                         <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center gap-1">
                             <Calendar size={16} />
@@ -146,7 +141,6 @@ export default function ApartmentFilters() {
                         </select>
                     </div>
 
-                    {/* Location Filter */}
                     <div>
                         <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center gap-1">
                             <MapPin size={16} />
@@ -166,7 +160,6 @@ export default function ApartmentFilters() {
                     </div>
                 </div>
 
-                {/* Price Range Filter */}
                 <div className="mt-4">
                     <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center gap-1">
                         <CreditCard size={16} />
