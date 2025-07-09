@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* Google-Font import removed – Inter is injected by next/font/google in app/layout.tsx */
 
 :root {
@@ -33,19 +34,49 @@ a {
   text-decoration: none;
 }
 
+/* Responsive utilities */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* Mobile-first responsive text sizes */
+  .responsive-title {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  .responsive-subtitle {
+    @apply text-lg sm:text-xl md:text-2xl;
+  }
+
+  /* Container with responsive padding */
+  .container-responsive {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Mobile menu animation */
+  .mobile-menu-enter {
+    @apply transform transition-all duration-300 ease-in-out;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 shadow-md hover:shadow-lg;
+    @apply bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg font-medium transition-all duration-200 shadow-md hover:shadow-lg text-sm sm:text-base;
   }
 
   .btn-secondary {
-    @apply bg-white hover:bg-gray-50 text-gray-800 px-6 py-3 rounded-lg font-medium transition-all duration-200 shadow-md hover:shadow-lg border border-gray-200;
+    @apply bg-white hover:bg-gray-50 text-gray-800 px-4 py-2 sm:px-6 sm:py-3 rounded-lg font-medium transition-all duration-200 shadow-md hover:shadow-lg border border-gray-200 text-sm sm:text-base;
   }
 
   .card {
@@ -53,6 +84,34 @@ a {
   }
 
   .input-field {
-    @apply w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all duration-200;
+    @apply w-full px-3 py-2 sm:px-4 sm:py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all duration-200 text-sm sm:text-base;
+  }
+
+  /* Responsive navigation */
+  .nav-link {
+    @apply text-gray-800 hover:text-teal-500 transition-colors font-medium text-sm sm:text-base;
+  }
+
+  /* Mobile-friendly spacing */
+  .section-padding {
+    @apply py-8 sm:py-12 lg:py-16;
+  }
+
+  .section-padding-sm {
+    @apply py-6 sm:py-8 lg:py-12;
+  }
+}
+
+/* Mobile navigation specific styles */
+@media (max-width: 1023px) {
+  .mobile-nav-overlay {
+    @apply fixed inset-0 bg-black bg-opacity-25 z-40;
+  }
+}
+
+/* Ensure mobile menu doesn't interfere with page content */
+@media (max-width: 1023px) {
+  body.menu-open {
+    @apply overflow-hidden;
   }
 }
