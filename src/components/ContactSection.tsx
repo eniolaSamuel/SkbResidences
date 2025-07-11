@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { Mail, Phone, MapPin, MessageCircle, Send } from 'lucide-react';
-import { Button } from '@/components/ui/button.tsx';
-import { Input } from '@/components/ui/input.tsx';
-import { Label } from '@/components/ui/label.tsx';
-import { Textarea } from '@/components/ui/textarea.tsx';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card.tsx';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
 
 export const ContactSection = () => {
@@ -41,7 +41,7 @@ export const ContactSection = () => {
 ${message}
     `.trim();
 
-        const whatsappUrl = `https://wa.me/2348000000000?text=${encodeURIComponent(whatsappMessage)}`;
+        const whatsappUrl = `https://wa.me/2348025019606?text=${encodeURIComponent(whatsappMessage)}`;
 
         // Simulate sending delay
         setTimeout(() => {
@@ -62,7 +62,7 @@ ${message}
     };
 
     const handleWhatsAppChat = () => {
-        window.open('https://wa.me/2348000000000?text=Hello, I would like to enquire about SKB Residences apartments', '_blank');
+        window.open('https://wa.me/2348025019606?text=Hello, I would like to enquire about SKB Residences apartments', '_blank');
     };
 
     return (
@@ -92,7 +92,8 @@ ${message}
                                     </div>
                                     <div>
                                         <p className="font-medium text-gray-900">Phone</p>
-                                        <p className="text-gray-600">+234 800 000 0000</p>
+                                        <p className="text-gray-600">+234 802 356 6655</p>
+                                        <p className="text-gray-600">+234 802 501 9606 (WhatsApp)</p>
                                     </div>
                                 </div>
 
@@ -102,7 +103,7 @@ ${message}
                                     </div>
                                     <div>
                                         <p className="font-medium text-gray-900">Email</p>
-                                        <p className="text-gray-600">info@skbresidences.com</p>
+                                        <p className="text-gray-600">skbhomes53@gmail.com</p>
                                     </div>
                                 </div>
 
