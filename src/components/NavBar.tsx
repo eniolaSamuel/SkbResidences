@@ -6,7 +6,7 @@ export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const handleWhatsAppChat = () => {
-        window.open('https://wa.me/2348000000000?text=Hello, I would like to chat about SKB Residences apartments', '_blank');
+        window.open('https://wa.me/2348025019606?text=Hello, I would like to chat about SKB Residences apartments', '_blank');
     };
 
     const scrollToSection = (sectionId: string) => {
@@ -24,10 +24,13 @@ export const Navbar = () => {
                     {/* Logo Space */}
                     <div className="flex items-center">
                         <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                            {/* SKB Logo will go here */}
-                            <span className="text-primary font-bold text-lg">SKB</span>
+                            <img
+                                src="/lovable-uploads/4caeb3fb-762b-4176-955e-762a36148cb7.png"
+                                alt="SKB Residences Logo"
+                                className="w-10 h-10 object-contain"
+                            />
                         </div>
-                        <span className="ml-3 text-xl font-bold text-gray-900">SKB Residences</span>
+                        <span className="ml-3 text-xl font-bold text-primary">SKB Residences</span>
                     </div>
 
                     {/* Desktop Navigation */}
