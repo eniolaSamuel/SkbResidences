@@ -96,7 +96,7 @@ export const ApartmentCard = ({ apartment, onBookNow }: ApartmentCardProps) => {
             <span className="text-2xl font-bold text-gray-900">
               {formatPrice(apartment.price)}
             </span>
-                        <span className="text-gray-600 text-sm">/month</span>
+                        <span className="text-gray-600 text-sm">/night</span>
                     </div>
                     <Button
                         onClick={() => onBookNow(apartment)}

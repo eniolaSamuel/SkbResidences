@@ -84,7 +84,7 @@ export const BookingModal = ({ isOpen, onClose, apartment }: BookingModalProps) 
 *Check-in:* ${format(checkIn, 'PPP')}
 *Check-out:* ${format(checkOut, 'PPP')}
 *Purpose:* ${purpose.charAt(0).toUpperCase() + purpose.slice(1)}
-*Price:* ₦${apartment.price.toLocaleString()}/month
+*Price:* ₦${apartment.price.toLocaleString()}/night
 
 ${message ? `*Additional Message:* ${message}` : ''}
 
@@ -143,7 +143,7 @@ Please confirm availability and next steps.
                                 <p className="text-2xl font-bold text-primary">
                                     ₦{apartment.price.toLocaleString()}
                                 </p>
-                                <p className="text-sm text-gray-600">per month</p>
+                                <p className="text-sm text-gray-600">per night</p>
                             </div>
                         </div>
                     </div>

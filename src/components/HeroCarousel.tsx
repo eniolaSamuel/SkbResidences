@@ -2,20 +2,24 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import carouselOne from '@/assets/carousel-one.svg';
+import carouselTwo from '@/assets/carousel-two.svg';
+import carouselThree from '@/assets/carousel-three.svg';
+
 
 const heroImages = [
     {
-        url: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=1920&h=1080&fit=crop',
+        url: carouselOne,
         title: 'Premium Apartments in Lagos',
         subtitle: 'Experience luxury living in the heart of Lagos'
     },
     {
-        url: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=1920&h=1080&fit=crop',
+        url: carouselTwo,
         title: 'Modern & Comfortable',
         subtitle: 'Fully furnished apartments with all amenities'
     },
     {
-        url: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?w=1920&h=1080&fit=crop',
+        url: carouselThree,
         title: 'Perfect Locations',
         subtitle: 'Choose from Mainland and Island locations'
     }

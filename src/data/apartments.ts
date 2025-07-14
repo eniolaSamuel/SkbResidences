@@ -1,4 +1,9 @@
 import { Apartment } from '@/types/apartment';
+import jmfOne from '@/assets/jones-mf-img1.svg';
+import jmfTwo from '@/assets/jones-mf-img2.svg';
+import jmfThree from '@/assets/jones-mf-img3.svg';
+import jmfFour from '@/assets/jones-mf-img4.svg';
+import jmfFive from '@/assets/jones-mf-img5.svg';
 
 export const apartments: Apartment[] = [
     {
@@ -7,10 +12,13 @@ export const apartments: Apartment[] = [
         type: 'Mini Flat',
         location: 'Adeniyi Jones Avenue, Ikeja',
         zone: 'Mainland',
-        price: 45000,
+        price: 50000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop',
-            'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=600&fit=crop'
+            jmfOne,
+            jmfTwo,
+            jmfThree,
+            jmfFour,
+            jmfFive
         ],
         description: 'Cozy mini flat in the heart of Ikeja, perfect for young professionals.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
