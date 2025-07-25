@@ -8,6 +8,9 @@ import jobfOne from '@/assets/jones-obf-img1.svg';
 import jobfTwo from '@/assets/jones-obf-img2.svg';
 import jobfThree from '@/assets/jones-obf-img3.svg';
 import jobfFour from '@/assets/jones-obf-img4.svg';
+import jobfFive from '@/assets/jones-obf-img5.svg';
+import jobfSix from '@/assets/jones-obf-img6.svg';
+import jobfSeven from '@/assets/jones-obf-img7.svg';
 
 export const apartments: Apartment[] = [
     {
@@ -39,7 +42,10 @@ export const apartments: Apartment[] = [
             jobfOne,
             jobfTwo,
             jobfThree,
-            jobfFour
+            jobfFour,
+            jobfFive,
+            jobfSix,
+            jobfSeven
         ],
         description: 'Luxury executive apartment with premium finishes and modern amenities.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
