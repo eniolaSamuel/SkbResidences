@@ -4,6 +4,10 @@ import jmfTwo from '@/assets/jones-mf-img2.svg';
 import jmfThree from '@/assets/jones-mf-img3.svg';
 import jmfFour from '@/assets/jones-mf-img4.svg';
 import jmfFive from '@/assets/jones-mf-img5.svg';
+import jobfOne from '@/assets/jones-obf-img1.svg';
+import jobfTwo from '@/assets/jones-obf-img2.svg';
+import jobfThree from '@/assets/jones-obf-img3.svg';
+import jobfFour from '@/assets/jones-obf-img4.svg';
 
 export const apartments: Apartment[] = [
     {
@@ -32,8 +36,10 @@ export const apartments: Apartment[] = [
         zone: 'Mainland',
         price: 50000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop',
-            'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=600&fit=crop'
+            jobfOne,
+            jobfTwo,
+            jobfThree,
+            jobfFour
         ],
         description: 'Luxury executive apartment with premium finishes and modern amenities.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
