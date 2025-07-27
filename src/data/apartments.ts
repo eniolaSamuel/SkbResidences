@@ -60,7 +60,7 @@ export const apartments: Apartment[] = [
         type: 'Standard Studio',
         location: 'Alausa, Ikeja',
         zone: 'Mainland',
-        price: 30000,
+        price: 35000,
         images: [
             jssOne,
             jssTwo,
