@@ -11,6 +11,9 @@ import jobfFour from '@/assets/jones-obf-img4.svg';
 import jobfFive from '@/assets/jones-obf-img5.svg';
 import jobfSix from '@/assets/jones-obf-img6.svg';
 import jobfSeven from '@/assets/jones-obf-img7.svg';
+import jssOne from '@/assets/jones-ssOne.svg';
+import jssTwo from '@/assets/jones-ssThree.svg';
+import jssThree from '@/assets/jones-ssTwo.svg';
 
 export const apartments: Apartment[] = [
     {
@@ -59,7 +62,9 @@ export const apartments: Apartment[] = [
         zone: 'Mainland',
         price: 30000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            jssOne,
+            jssTwo,
+            jssThree
         ],
         description: 'Affordable studio apartment in Alausa business district.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette'],
