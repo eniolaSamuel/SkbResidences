@@ -147,7 +147,7 @@ Please confirm availability and next steps.
                                 <p className="text-2xl font-bold text-primary">
                                     ₦{apartment.price.toLocaleString()}
                                 </p>
-                                <p className="text-sm text-gray-600">per month</p>
+                                <p className="text-sm text-gray-600">per night</p>
                             </div>
                         </div>
                     </div>
