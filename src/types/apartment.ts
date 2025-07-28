@@ -21,14 +21,14 @@ export interface BookingRequest {
     guestName: string;
     guestEmail: string;
     guestPhone: string;
-    purpose: 'shortlet' | 'longlet' | 'party';
+    purpose: 'shortlet' | 'annual';
     message?: string;
 }
 
 export interface FilterOptions {
     zone: 'all' | 'Mainland' | 'Island';
     apartmentType: 'all' | Apartment['type'];
-    purpose: 'all' | 'shortlet' | 'longlet' | 'party';
+    purpose: 'all' | 'shortlet' | 'annual';
     location: 'all' | string;
     priceRange: [number, number];
 }
