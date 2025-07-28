@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Calendar as CalendarComponent } from '@/components/ui/calender.tsx';
+import { Calendar as CalendarComponent } from '@/components/ui/calendar';
 import {
     Dialog,
     DialogContent,
@@ -41,7 +41,8 @@ export const BookingModal = ({ isOpen, onClose, apartment }: BookingModalProps) 
     const [guestName, setGuestName] = useState('');
     const [guestEmail, setGuestEmail] = useState('');
     const [guestPhone, setGuestPhone] = useState('');
-    const [purpose, setPurpose] = useState<'shortlet' | 'longlet' | 'party'>('shortlet');
+    const [bookingType, setBookingType] = useState<'shortlet' | 'annual'>('shortlet');
+    const [purpose, setPurpose] = useState<'vacation' | 'event' | 'business'>('vacation');
     const [message, setMessage] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
     const { toast } = useToast();
@@ -69,6 +70,7 @@ export const BookingModal = ({ isOpen, onClose, apartment }: BookingModalProps) 
             guestName,
             guestEmail,
             guestPhone,
+            bookingType,
             purpose,
             message,
         };
@@ -83,8 +85,9 @@ export const BookingModal = ({ isOpen, onClose, apartment }: BookingModalProps) 
 *Phone:* ${guestPhone}
 *Check-in:* ${format(checkIn, 'PPP')}
 *Check-out:* ${format(checkOut, 'PPP')}
+*Booking Type:* ${bookingType.charAt(0).toUpperCase() + bookingType.slice(1)}
 *Purpose:* ${purpose.charAt(0).toUpperCase() + purpose.slice(1)}
-*Price:* ₦${apartment.price.toLocaleString()}/night
+*Price:* ₦${apartment.price.toLocaleString()}/month
 
 ${message ? `*Additional Message:* ${message}` : ''}
 
@@ -108,7 +111,8 @@ Please confirm availability and next steps.
             setGuestName('');
             setGuestEmail('');
             setGuestPhone('');
-            setPurpose('shortlet');
+            setBookingType('shortlet');
+            setPurpose('vacation');
             setMessage('');
             setIsSubmitting(false);
             onClose();
@@ -143,7 +147,7 @@ Please confirm availability and next steps.
                                 <p className="text-2xl font-bold text-primary">
                                     ₦{apartment.price.toLocaleString()}
                                 </p>
-                                <p className="text-sm text-gray-600">per night</p>
+                                <p className="text-sm text-gray-600">per month</p>
                             </div>
                         </div>
                     </div>
@@ -247,6 +251,22 @@ Please confirm availability and next steps.
                                 placeholder="your.email@example.com"
                                 required
                             />
+                        </div>
+
+                        <div className="space-y-2">
+                            <Label htmlFor="bookingType">Booking Type</Label>
+                            <Select value={bookingType} onValueChange={(value: any) => setBookingType(value)}>
+                                <SelectTrigger>
+                                    <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    {apartment.bookingType.map((type) => (
+                                        <SelectItem key={type} value={type}>
+                                            {type.charAt(0).toUpperCase() + type.slice(1)}
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
                         </div>
 
                         <div className="space-y-2">
