@@ -32,7 +32,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Cozy mini flat in the heart of Ikeja, perfect for young professionals.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
-        bookingPurpose: ['shortlet', 'longlet']
+        bookingType: ['shortlet'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '2',
@@ -52,7 +53,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Luxury executive apartment with premium finishes and modern amenities.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
-        bookingPurpose: ['shortlet', 'longlet', 'party']
+        bookingType: ['shortlet'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '3',
@@ -68,7 +70,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Affordable studio apartment in Alausa business district.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette'],
-        bookingPurpose: ['shortlet', 'longlet']
+        bookingType: ['shortlet'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '4',
@@ -83,7 +86,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Spacious 3-bedroom apartment perfect for families.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool'],
-        bookingPurpose: ['shortlet', 'longlet', 'party']
+        bookingType: ['annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '5',
@@ -97,7 +101,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Premium 2-bedroom apartment in prestigious GRA location.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
-        bookingPurpose: ['shortlet', 'longlet', 'party']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '6',
@@ -111,7 +116,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Elegant 2-bedroom flat in the heart of GRA.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
-        bookingPurpose: ['shortlet', 'longlet']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '7',
@@ -125,7 +131,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Executive 2-bedroom apartment with premium amenities.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Gym'],
-        bookingPurpose: ['shortlet', 'longlet', 'party']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '8',
@@ -139,7 +146,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Modern 2-bedroom apartment in serene estate environment.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
-        bookingPurpose: ['shortlet', 'longlet']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '9',
@@ -153,7 +161,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Affordable 2-bedroom flat in peaceful Ogba neighborhood.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
-        bookingPurpose: ['shortlet', 'longlet']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '10',
@@ -167,7 +176,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Luxurious studio apartment with executive finishes.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette', 'Parking', 'Security'],
-        bookingPurpose: ['shortlet', 'longlet', 'party']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '11',
@@ -181,7 +191,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Comfortable studio apartment at an affordable price.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette'],
-        bookingPurpose: ['shortlet', 'longlet']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '12',
@@ -195,7 +206,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Executive 1-bedroom apartment in prestigious GRA.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
-        bookingPurpose: ['shortlet', 'longlet', 'party']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '13',
@@ -209,7 +221,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Cozy mini flat in the prestigious GRA neighborhood.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
-        bookingPurpose: ['shortlet', 'longlet']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     },
     {
         id: '14',
@@ -223,7 +236,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Premium executive apartment in the heart of Ikoyi.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool', 'Gym'],
-        bookingPurpose: ['shortlet', 'longlet', 'party']
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'event', 'business']
     }
 ];
 

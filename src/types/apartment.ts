@@ -8,7 +8,8 @@ export interface Apartment {
     images: string[];
     description: string;
     amenities: string[];
-    bookingPurpose: ('shortlet' | 'longlet' | 'party')[];
+    bookingType: ('shortlet' | 'annual')[];
+    bookingPurpose: ('vacation' | 'event' | 'business')[];
 }
 
 export interface BookingRequest {

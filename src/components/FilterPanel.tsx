@@ -161,8 +161,7 @@ export const FilterPanel = ({ filters, onFiltersChange, isOpen, onToggle }: Filt
                                 <SelectContent>
                                     <SelectItem value="all">All Purposes</SelectItem>
                                     <SelectItem value="shortlet">Shortlet</SelectItem>
-                                    <SelectItem value="longlet">Longlet</SelectItem>
-                                    <SelectItem value="party">Party</SelectItem>
+                                    <SelectItem value="annual">Longlet</SelectItem>
                                 </SelectContent>
                             </Select>
                         </div>
