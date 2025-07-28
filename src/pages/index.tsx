@@ -39,6 +39,11 @@ const Index = () => {
                 return false;
             }
 
+            // BookingType filter
+            if (filters.bookingType !== 'all' && !apartment.bookingType.includes(filters.bookingType)) {
+                return false;
+            }
+
             // Purpose filter
             if (filters.purpose !== 'all' && !apartment.bookingPurpose.includes(filters.purpose)) {
                 return false;
