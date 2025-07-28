@@ -43,6 +43,7 @@ export const FilterPanel = ({ filters, onFiltersChange, isOpen, onToggle }: Filt
         onFiltersChange({
             zone: 'all',
             apartmentType: 'all',
+            bookingType: 'all',
             purpose: 'all',
             location: 'all',
             priceRange: [0, 200000]
@@ -148,20 +149,39 @@ export const FilterPanel = ({ filters, onFiltersChange, isOpen, onToggle }: Filt
                             </Select>
                         </div>
 
-                        {/* Purpose Filter */}
+                        {/* Booking Type Filter */}
                         <div>
                             <label className="text-sm font-medium mb-2 block">Booking Type</label>
+                            <Select
+                                value={filters.bookingType}
+                                onValueChange={(value) => onFiltersChange({ ...filters, bookingType: value as FilterOptions['bookingType'] })}
+                            >
+                                <SelectTrigger>
+                                    <SelectValue placeholder="Select type" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="all">All Types</SelectItem>
+                                    <SelectItem value="shortlet">Shortlet</SelectItem>
+                                    <SelectItem value="annual">Annual</SelectItem>
+                                </SelectContent>
+                            </Select>
+                        </div>
+
+                        {/* Purpose Filter */}
+                        <div>
+                            <label className="text-sm font-medium mb-2 block">Booking Purpose</label>
                             <Select
                                 value={filters.purpose}
                                 onValueChange={(value) => onFiltersChange({ ...filters, purpose: value as FilterOptions['purpose'] })}
                             >
                                 <SelectTrigger>
-                                    <SelectValue placeholder="Select booking type" />
+                                    <SelectValue placeholder="Select purpose" />
                                 </SelectTrigger>
                                 <SelectContent>
                                     <SelectItem value="all">All Purposes</SelectItem>
-                                    <SelectItem value="shortlet">Shortlet</SelectItem>
-                                    <SelectItem value="annual">Annual</SelectItem>
+                                    <SelectItem value="vacation">Vacation</SelectItem>
+                                    <SelectItem value="event">Event</SelectItem>
+                                    <SelectItem value="business">Business</SelectItem>
                                 </SelectContent>
                             </Select>
                         </div>
