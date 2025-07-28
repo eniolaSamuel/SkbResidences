@@ -16,6 +16,7 @@ const Index = () => {
     const [filters, setFilters] = useState<FilterOptions>({
         zone: 'all',
         apartmentType: 'all',
+        bookingType: 'all',
         purpose: 'all',
         location: 'all',
         priceRange: [0, 200000]

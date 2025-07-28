@@ -150,13 +150,13 @@ export const FilterPanel = ({ filters, onFiltersChange, isOpen, onToggle }: Filt
 
                         {/* Purpose Filter */}
                         <div>
-                            <label className="text-sm font-medium mb-2 block">Booking Purpose</label>
+                            <label className="text-sm font-medium mb-2 block">Booking Type</label>
                             <Select
                                 value={filters.purpose}
                                 onValueChange={(value) => onFiltersChange({ ...filters, purpose: value as FilterOptions['purpose'] })}
                             >
                                 <SelectTrigger>
-                                    <SelectValue placeholder="Select purpose" />
+                                    <SelectValue placeholder="Select booking type" />
                                 </SelectTrigger>
                                 <SelectContent>
                                     <SelectItem value="all">All Purposes</SelectItem>

@@ -1,3 +1,4 @@
+
 export interface Apartment {
     id: string;
     name: string;
@@ -21,14 +22,16 @@ export interface BookingRequest {
     guestName: string;
     guestEmail: string;
     guestPhone: string;
-    purpose: 'shortlet' | 'annual';
+    bookingType: 'shortlet' | 'annual';
+    purpose: 'vacation' | 'event' | 'business';
     message?: string;
 }
 
 export interface FilterOptions {
     zone: 'all' | 'Mainland' | 'Island';
     apartmentType: 'all' | Apartment['type'];
-    purpose: 'all' | 'shortlet' | 'annual';
+    bookingType: 'all' | 'shortlet' | 'annual';
+    purpose: 'all' | 'vacation' | 'event' | 'business';
     location: 'all' | string;
     priceRange: [number, number];
 }
