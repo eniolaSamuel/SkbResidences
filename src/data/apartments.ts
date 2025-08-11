@@ -14,6 +14,14 @@ import jobfSeven from '@/assets/jones-obf-img7.svg';
 import jssOne from '@/assets/jones-ssOne.svg';
 import jssTwo from '@/assets/jones-ssThree.svg';
 import jssThree from '@/assets/jones-ssTwo.svg';
+import ddcOne from '@/assets/ddcImg1.svg';
+import ddcTwo from '@/assets/ddcImg2.svg';
+import ddcThree from '@/assets/ddcImg3.svg';
+import ddcFour from '@/assets/ddcImg4.svg';
+import ddcFive from '@/assets/ddcImg5.svg';
+import ddcSix from '@/assets/ddcImg6.svg';
+import ddcSeven from '@/assets/ddcImg7.svg';
+import ddcEight from '@/assets/ddcImg8.svg';
 
 export const apartments: Apartment[] = [
     {
@@ -81,8 +89,14 @@ export const apartments: Apartment[] = [
         zone: 'Mainland',
         price: 120000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop',
-            'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=600&fit=crop'
+            ddcOne,
+            ddcTwo,
+            ddcThree,
+            ddcFour,
+            ddcFive,
+            ddcSix,
+            ddcSeven,
+            ddcEight
         ],
         description: 'Spacious 3-bedroom apartment perfect for families.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool'],
@@ -95,7 +109,7 @@ export const apartments: Apartment[] = [
         type: '2 Bedroom',
         location: 'Rev. Ogunbiyi, GRA, Ikeja',
         zone: 'Mainland',
-        price: 120000,
+        price: 125000,
         images: [
             'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
         ],
