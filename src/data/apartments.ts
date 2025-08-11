@@ -45,6 +45,13 @@ import laxe6 from '@/assets/Ladoke Akintola Executive Two Bed/laxe6.svg';
 import laxe7 from '@/assets/Ladoke Akintola Executive Two Bed/laxe7.svg';
 import laxe8 from '@/assets/Ladoke Akintola Executive Two Bed/laxe8.svg';
 import laxe9 from '@/assets/Ladoke Akintola Executive Two Bed/laxe9.svg';
+import se1 from '@/assets/Shonibare Estate/se1.svg';
+import se2 from '@/assets/Shonibare Estate/se2.svg';
+import se3 from '@/assets/Shonibare Estate/se3.svg';
+import se4 from '@/assets/Shonibare Estate/se4.svg';
+import se5 from '@/assets/Shonibare Estate/se5.svg';
+import se6 from '@/assets/Shonibare Estate/se6.svg';
+import se7 from '@/assets/Shonibare Estate/se7.svg';
 
 
 
@@ -201,7 +208,13 @@ export const apartments: Apartment[] = [
         zone: 'Mainland',
         price: 105000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            se1,
+            se2,
+            se3,
+            se4,
+            se5,
+            se6,
+            se7
         ],
         description: 'Modern 2-bedroom apartment in serene estate environment.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
