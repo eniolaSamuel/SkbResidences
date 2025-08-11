@@ -22,6 +22,31 @@ import ddcFive from '@/assets/DideoluCourtTwoBed/ddcImg5.svg';
 import ddcSix from '@/assets/DideoluCourtTwoBed/ddcImg6.svg';
 import ddcSeven from '@/assets/DideoluCourtTwoBed/ddcImg7.svg';
 import ddcEight from '@/assets/DideoluCourtTwoBed/ddcImg8.svg';
+import roOne from '@/assets/Rev Ogunbiyi Two Bed/roImg1.svg';
+import roTwo from '@/assets/Rev Ogunbiyi Two Bed/roImg2.svg';
+import roThree from '@/assets/Rev Ogunbiyi Two Bed/roImg3.svg';
+import roFour from '@/assets/Rev Ogunbiyi Two Bed/roImg4.svg';
+import roFive from '@/assets/Rev Ogunbiyi Two Bed/roImg5.svg';
+import roSix from '@/assets/Rev Ogunbiyi Two Bed/roImg6.svg';
+import roSeven from '@/assets/Rev Ogunbiyi Two Bed/roImg7.svg';
+import roEight from '@/assets/Rev Ogunbiyi Two Bed/roImg8.svg';
+import laOne from '@/assets/Ladoke Akintola Two Bed/la1.svg';
+import laTwo from '@/assets/Ladoke Akintola Two Bed/la2.svg';
+import laThree from '@/assets/Ladoke Akintola Two Bed/la3.svg';
+import laFour from '@/assets/Ladoke Akintola Two Bed/la4.svg';
+import laFive from '@/assets/Ladoke Akintola Two Bed/la5.svg';
+import laSix from '@/assets/Ladoke Akintola Two Bed/la6.svg';
+import laxe1 from '@/assets/Ladoke Akintola Executive Two Bed/laxe1.svg';
+import laxe2 from '@/assets/Ladoke Akintola Executive Two Bed/laxe2.svg';
+import laxe3 from '@/assets/Ladoke Akintola Executive Two Bed/laxe3.svg';
+import laxe4 from '@/assets/Ladoke Akintola Executive Two Bed/laxe4.svg';
+import laxe5 from '@/assets/Ladoke Akintola Executive Two Bed/laxe5.svg';
+import laxe6 from '@/assets/Ladoke Akintola Executive Two Bed/laxe6.svg';
+import laxe7 from '@/assets/Ladoke Akintola Executive Two Bed/laxe7.svg';
+import laxe8 from '@/assets/Ladoke Akintola Executive Two Bed/laxe8.svg';
+import laxe9 from '@/assets/Ladoke Akintola Executive Two Bed/laxe9.svg';
+
+
 
 export const apartments: Apartment[] = [
     {
@@ -111,7 +136,14 @@ export const apartments: Apartment[] = [
         zone: 'Mainland',
         price: 125000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            roOne,
+            roTwo,
+            roThree,
+            roFour,
+            roFive,
+            roSix,
+            roSeven,
+            roEight
         ],
         description: 'Premium 2-bedroom apartment in prestigious GRA location.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
@@ -124,9 +156,14 @@ export const apartments: Apartment[] = [
         type: '2 Bedroom',
         location: 'Ladoke Akintola, GRA, Ikeja',
         zone: 'Mainland',
-        price: 120000,
+        price: 125000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            laOne,
+            laTwo,
+            laThree,
+            laFour,
+            laFive,
+            laSix
         ],
         description: 'Elegant 2-bedroom flat in the heart of GRA.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
@@ -141,7 +178,15 @@ export const apartments: Apartment[] = [
         zone: 'Mainland',
         price: 135000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            laxe1,
+            laxe2,
+            laxe3,
+            laxe4,
+            laxe5,
+            laxe6,
+            laxe7,
+            laxe8,
+            laxe9
         ],
         description: 'Executive 2-bedroom apartment with premium amenities.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Gym'],
