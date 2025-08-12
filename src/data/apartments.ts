@@ -52,6 +52,13 @@ import se4 from '@/assets/Shonibare Estate/se4.svg';
 import se5 from '@/assets/Shonibare Estate/se5.svg';
 import se6 from '@/assets/Shonibare Estate/se6.svg';
 import se7 from '@/assets/Shonibare Estate/se7.svg';
+import w1 from '@/assets/WEMCO/w1.svg';
+import w2 from '@/assets/WEMCO/w2.svg';
+import w3 from '@/assets/WEMCO/w3.svg';
+import w4 from '@/assets/WEMCO/w4.svg';
+import w5 from '@/assets/WEMCO/w5.svg';
+import w6 from '@/assets/WEMCO/w6.svg';
+import w7 from '@/assets/WEMCO/w7.svg';
 
 
 
@@ -229,11 +236,17 @@ export const apartments: Apartment[] = [
         zone: 'Mainland',
         price: 85000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            w1,
+            w2,
+            w3,
+            w4,
+            w5,
+            w6,
+            w7
         ],
         description: 'Affordable 2-bedroom flat in peaceful Ogba neighborhood.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
-        bookingType: ['shortlet'],
+        bookingType: ['annual'],
         bookingPurpose: ['vacation', 'event', 'business']
     },
     {
