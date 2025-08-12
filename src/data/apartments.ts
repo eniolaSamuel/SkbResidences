@@ -59,6 +59,13 @@ import w4 from '@/assets/WEMCO/w4.svg';
 import w5 from '@/assets/WEMCO/w5.svg';
 import w6 from '@/assets/WEMCO/w6.svg';
 import w7 from '@/assets/WEMCO/w7.svg';
+import ajex1 from '@/assets/Adeniyi Jones Executive Studio/ajex1.svg';
+import ajex2 from '@/assets/Adeniyi Jones Executive Studio/ajex2.svg';
+import ajex3 from '@/assets/Adeniyi Jones Executive Studio/ajex3.svg';
+import ajex4 from '@/assets/Adeniyi Jones Executive Studio/ajex4.svg';
+import ajex5 from '@/assets/Adeniyi Jones Executive Studio/ajex5.svg';
+import ajex6 from '@/assets/Adeniyi Jones Executive Studio/ajex6.svg';
+import ajex7 from '@/assets/Adeniyi Jones Executive Studio/ajex7.svg';
 
 
 
@@ -257,7 +264,13 @@ export const apartments: Apartment[] = [
         zone: 'Mainland',
         price: 35000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            ajex1,
+            ajex2,
+            ajex3,
+            ajex4,
+            ajex5,
+            ajex6,
+            ajex7
         ],
         description: 'Luxurious studio apartment with executive finishes.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette', 'Parking', 'Security'],
@@ -266,11 +279,11 @@ export const apartments: Apartment[] = [
     },
     {
         id: '11',
-        name: 'Standard Studio @ Adeniyi Jones',
+        name: 'Standard Studio @ Alausa Ikeja',
         type: 'Standard Studio',
-        location: 'Adeniyi Jones, Ikeja',
+        location: 'Alausa, Ikeja',
         zone: 'Mainland',
-        price: 25000,
+        price: 35000,
         images: [
             'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
         ],
