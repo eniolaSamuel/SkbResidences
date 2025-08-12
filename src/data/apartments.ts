@@ -66,7 +66,12 @@ import ajex4 from '@/assets/Adeniyi Jones Executive Studio/ajex4.svg';
 import ajex5 from '@/assets/Adeniyi Jones Executive Studio/ajex5.svg';
 import ajex6 from '@/assets/Adeniyi Jones Executive Studio/ajex6.svg';
 import ajex7 from '@/assets/Adeniyi Jones Executive Studio/ajex7.svg';
-
+import ib1 from '@/assets/Ishola Bello/ib1.svg';
+import ib2 from '@/assets/Ishola Bello/ib2.svg';
+import ib3 from '@/assets/Ishola Bello/ib3.svg';
+import ib4 from '@/assets/Ishola Bello/ib 4.svg';
+import ib5 from '@/assets/Ishola Bello/ib5.svg';
+import ib6 from '@/assets/Ishola Bello/ib6.svg';
 
 
 export const apartments: Apartment[] = [
@@ -279,13 +284,18 @@ export const apartments: Apartment[] = [
     },
     {
         id: '11',
-        name: 'Standard Studio @ Alausa Ikeja',
+        name: 'Standard Studio @ Ishola Bello, Alausa Ikeja',
         type: 'Standard Studio',
         location: 'Alausa, Ikeja',
         zone: 'Mainland',
         price: 35000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            ib1,
+            ib2,
+            ib3,
+            ib4,
+            ib5,
+            ib6
         ],
         description: 'Comfortable studio apartment at an affordable price.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette'],
