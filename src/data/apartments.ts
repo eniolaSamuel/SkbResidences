@@ -223,11 +223,11 @@ export const apartments: Apartment[] = [
     },
     {
         id: '9',
-        name: '2 Bedroom @ George Crescent, Wempco',
+        name: '2 Bedroom @ George Crescent, Wemco',
         type: '2 Bedroom',
-        location: 'George Crescent, Wempco, Ogba, Ikeja',
+        location: 'George Crescent, Wemco, Ogba, Ikeja',
         zone: 'Mainland',
-        price: 80000,
+        price: 85000,
         images: [
             'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
         ],
