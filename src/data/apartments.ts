@@ -84,6 +84,15 @@ import ka5 from '@/assets/Kofo Abayomi/ka5.svg';
 import ka6 from '@/assets/Kofo Abayomi/ka6.svg';
 import ka7 from '@/assets/Kofo Abayomi/ka7.svg';
 import ka8 from '@/assets/Kofo Abayomi/ka8.svg';
+import ki1 from '@/assets/Keffi Ikoyi One Bed/ki1.svg';
+import ki2 from '@/assets/Keffi Ikoyi One Bed/ki2.svg';
+import ki3 from '@/assets/Keffi Ikoyi One Bed/ki3.svg';
+import ki4 from '@/assets/Keffi Ikoyi One Bed/ki4.svg';
+import ki5 from '@/assets/Keffi Ikoyi One Bed/ki5.svg';
+import ki6 from '@/assets/Keffi Ikoyi One Bed/ki6.svg';
+import ki7 from '@/assets/Keffi Ikoyi One Bed/ki7.svg';
+import ki8 from '@/assets/Keffi Ikoyi One Bed/ki8.svg';
+
 
 export const apartments: Apartment[] = [
     {
@@ -354,11 +363,18 @@ export const apartments: Apartment[] = [
         zone: 'Island',
         price: 125000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            ki1,
+            ki2,
+            ki3,
+            ki4,
+            ki5,
+            ki6,
+            ki7,
+            ki8
         ],
         description: 'Premium executive apartment in the heart of Ikoyi.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool', 'Gym'],
-        bookingType: ['shortlet'],
+        bookingType: ['shortlet', 'annual'],
         bookingPurpose: ['vacation', 'event', 'business']
     },
 
