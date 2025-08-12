@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import LOGO from 'public/logo.svg';
 
 
 
@@ -27,7 +28,7 @@ export const Navbar = () => {
                     <div className="flex items-center">
                         <div className="w-15 h-15  rounded-lg flex items-center justify-center">
                             <img
-                                src="public/logo.svg"
+                                src={LOGO}
                                 alt="SKB Residences Logo"
                                 className="w-10 h-10 object-contain"
                             />
