@@ -72,7 +72,10 @@ import ib3 from '@/assets/Ishola Bello/ib3.svg';
 import ib4 from '@/assets/Ishola Bello/ib 4.svg';
 import ib5 from '@/assets/Ishola Bello/ib5.svg';
 import ib6 from '@/assets/Ishola Bello/ib6.svg';
-
+import roo1 from '@/assets/Rev Ogunbiyi One Bed/roo1.svg';
+import roo2 from '@/assets/Rev Ogunbiyi One Bed/roo2.svg';
+import roo3 from '@/assets/Rev Ogunbiyi One Bed/roo3.svg';
+import roo4 from '@/assets/Rev Ogunbiyi One Bed/roo4.svg';
 
 export const apartments: Apartment[] = [
     {
@@ -308,9 +311,12 @@ export const apartments: Apartment[] = [
         type: 'Executive 1 Bedroom',
         location: 'Rev. Ogunbiyi, GRA, Ikeja',
         zone: 'Mainland',
-        price: 75000,
+        price: 85000,
         images: [
-            'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop'
+            roo1,
+            roo2,
+            roo3,
+            roo4
         ],
         description: 'Executive 1-bedroom apartment in prestigious GRA.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
