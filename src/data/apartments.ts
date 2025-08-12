@@ -76,6 +76,14 @@ import roo1 from '@/assets/Rev Ogunbiyi One Bed/roo1.svg';
 import roo2 from '@/assets/Rev Ogunbiyi One Bed/roo2.svg';
 import roo3 from '@/assets/Rev Ogunbiyi One Bed/roo3.svg';
 import roo4 from '@/assets/Rev Ogunbiyi One Bed/roo4.svg';
+import ka1 from '@/assets/Kofo Abayomi/ka1.svg';
+import ka2 from '@/assets/Kofo Abayomi/ka2.svg';
+import ka3 from '@/assets/Kofo Abayomi/ka3.svg';
+import ka4 from '@/assets/Kofo Abayomi/ka4.svg';
+import ka5 from '@/assets/Kofo Abayomi/ka5.svg';
+import ka6 from '@/assets/Kofo Abayomi/ka6.svg';
+import ka7 from '@/assets/Kofo Abayomi/ka7.svg';
+import ka8 from '@/assets/Kofo Abayomi/ka8.svg';
 
 export const apartments: Apartment[] = [
     {
@@ -352,6 +360,29 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool', 'Gym'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business']
+    },
+
+    {
+        id: '15',
+        name: 'Furnished studios @ Kofo Abayomi, VI',
+        type: 'Standard Studio',
+        location: 'Kofo Abayomi, VI',
+        zone: 'Island',
+        price: 40000,
+        images: [
+            ka1,
+            ka2,
+            ka3,
+            ka4,
+            ka5,
+            ka6,
+            ka7,
+            ka8
+        ],
+        description: 'Premium executive apartment in the heart of Ikoyi.',
+        amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool', 'Gym'],
+        bookingType: ['shortlet', 'annual'],
+        bookingPurpose: ['vacation', 'business']
     }
 ];
 
@@ -364,5 +395,6 @@ export const locations = [
     'Shonibare Estate, Ikeja',
     'George Crescent, Wempco, Ogba, Ikeja',
     'Adeniyi Jones, Ikeja',
-    'Keffi Street, Ikoyi'
+    'Keffi Street, Ikoyi',
+    'Kofo Abayomi, VI'
 ];
