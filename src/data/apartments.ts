@@ -461,6 +461,7 @@ export const apartments: Apartment[] = [
             aa3,
             aa4,
             aa5,
+            aa7,
             aa10
         ],
         description: 'Serene 3-bedroom maisonette on the island, off Ajose Adeogun Street in Victoria Island.',

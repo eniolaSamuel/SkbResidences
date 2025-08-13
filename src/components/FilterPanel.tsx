@@ -46,7 +46,7 @@ export const FilterPanel = ({ filters, onFiltersChange, isOpen, onToggle }: Filt
             bookingType: 'all',
             purpose: 'all',
             location: 'all',
-            priceRange: [0, 200000]
+            priceRange: [0, 50000000]
         });
     };
 
