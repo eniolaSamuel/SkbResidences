@@ -9,6 +9,7 @@ export interface Apartment {
     images: string[];
     description: string;
     amenities: string[];
+    serviceCharge: string;
     bookingType: ('shortlet' | 'annual')[];
     bookingPurpose: ('vacation' | 'event' | 'business')[];
 }

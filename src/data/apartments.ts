@@ -112,7 +112,8 @@ export const apartments: Apartment[] = [
         description: 'Cozy mini flat in the heart of Ikeja, perfect for young professionals.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '2',
@@ -133,7 +134,8 @@ export const apartments: Apartment[] = [
         description: 'Luxury executive apartment with premium finishes and modern amenities.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '3',
@@ -150,7 +152,8 @@ export const apartments: Apartment[] = [
         description: 'Affordable studio apartment in Alausa business district.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '4',
@@ -172,7 +175,8 @@ export const apartments: Apartment[] = [
         description: 'Spacious 3-bedroom apartment perfect for families.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool'],
         bookingType: ['annual'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '5',
@@ -194,7 +198,8 @@ export const apartments: Apartment[] = [
         description: 'Premium 2-bedroom apartment in prestigious GRA location.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '6',
@@ -214,7 +219,8 @@ export const apartments: Apartment[] = [
         description: 'Elegant 2-bedroom flat in the heart of GRA.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '7',
@@ -237,7 +243,8 @@ export const apartments: Apartment[] = [
         description: 'Executive 2-bedroom apartment with premium amenities.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Gym'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '8',
@@ -258,28 +265,24 @@ export const apartments: Apartment[] = [
         description: 'Modern 2-bedroom apartment in serene estate environment.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '9',
-        name: '2 Bedroom @ George Crescent, Wemco',
-        type: '2 Bedroom',
-        location: 'George Crescent, Wemco, Ogba, Ikeja',
-        zone: 'Mainland',
-        price: 85000,
+        name: '3 Bedroom Mansionette Duplex @ Adebisi Abimbola Street, VI',
+        type: '3 Bedroom',
+        location: 'Adebisi Abimbola Street, VI',
+        zone: 'Island',
+        price: 250000,
         images: [
-            w1,
-            w2,
-            w3,
-            w4,
-            w5,
-            w6,
-            w7
+
         ],
-        description: 'Affordable 2-bedroom flat in peaceful Ogba neighborhood.',
+        description: 'Serene 3-bedroom maisonette on the island, off Ajose Adeogun Street in Victoria Island.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
-        bookingType: ['annual'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingType: ['shortlet'],
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '10',
@@ -300,7 +303,8 @@ export const apartments: Apartment[] = [
         description: 'Luxurious studio apartment with executive finishes.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette', 'Parking', 'Security'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '11',
@@ -320,7 +324,8 @@ export const apartments: Apartment[] = [
         description: 'Comfortable studio apartment at an affordable price.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '12',
@@ -338,7 +343,8 @@ export const apartments: Apartment[] = [
         description: 'Executive 1-bedroom apartment in prestigious GRA.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '13',
@@ -353,7 +359,8 @@ export const apartments: Apartment[] = [
         description: 'Cozy mini flat in the prestigious GRA neighborhood.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
         bookingType: ['shortlet'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
     {
         id: '14',
@@ -375,7 +382,8 @@ export const apartments: Apartment[] = [
         description: 'Premium executive apartment in the heart of Ikoyi.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool', 'Gym'],
         bookingType: ['shortlet', 'annual'],
-        bookingPurpose: ['vacation', 'event', 'business']
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
     },
 
     {
@@ -398,8 +406,49 @@ export const apartments: Apartment[] = [
         description: 'Premium executive apartment in the heart of Ikoyi.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool', 'Gym'],
         bookingType: ['shortlet', 'annual'],
-        bookingPurpose: ['vacation', 'business']
-    }
+        bookingPurpose: ['vacation', 'business'],
+        serviceCharge: null
+    },
+
+    {
+        id: '16',
+        name: '2 Bedroom @ George Crescent, Wemco',
+        type: '2 Bedroom',
+        location: 'George Crescent, Wemco, Ogba, Ikeja',
+        zone: 'Mainland',
+        price: 85000,
+        images: [
+            w1,
+            w2,
+            w3,
+            w4,
+            w5,
+            w6,
+            w7
+        ],
+        description: 'Affordable 2-bedroom flat in peaceful Ogba neighborhood.',
+        amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
+        bookingType: ['annual'],
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: null
+    },
+
+    {
+        id: '17',
+        name: '3 Bedroom Mansionette Duplex @ Adebisi Abimbola Street, VI',
+        type: '3 Bedroom',
+        location: 'Adebisi Abimbola Street, VI',
+        zone: 'Island',
+        price: 40000000,
+        images: [
+
+        ],
+        description: 'Serene 3-bedroom maisonette on the island, off Ajose Adeogun Street in Victoria Island.',
+        amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
+        bookingType: ['annual'],
+        bookingPurpose: ['vacation', 'event', 'business'],
+        serviceCharge: '3500000'
+    },
 ];
 
 export const locations = [
@@ -412,5 +461,6 @@ export const locations = [
     'George Crescent, Wempco, Ogba, Ikeja',
     'Adeniyi Jones, Ikeja',
     'Keffi Street, Ikoyi',
-    'Kofo Abayomi, VI'
+    'Kofo Abayomi, VI',
+    'Adebisi Abimbola, VI'
 ];
