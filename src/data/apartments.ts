@@ -92,6 +92,16 @@ import ki5 from '@/assets/Keffi Ikoyi One Bed/ki5.svg';
 import ki6 from '@/assets/Keffi Ikoyi One Bed/ki6.svg';
 import ki7 from '@/assets/Keffi Ikoyi One Bed/ki7.svg';
 import ki8 from '@/assets/Keffi Ikoyi One Bed/ki8.svg';
+import aa1 from '@/assets/Adebisi Abimbola/aa1.svg';
+import aa2 from '@/assets/Adebisi Abimbola/aa2.svg';
+import aa3 from '@/assets/Adebisi Abimbola/aa3.svg';
+import aa4 from '@/assets/Adebisi Abimbola/aa4.svg';
+import aa5 from '@/assets/Adebisi Abimbola/aa5.svg';
+import aa6 from '@/assets/Adebisi Abimbola/aa6.svg';
+import aa7 from '@/assets/Adebisi Abimbola/aa7.svg';
+import aa8 from '@/assets/Adebisi Abimbola/aa8.svg';
+import aa9 from '@/assets/Adebisi Abimbola/aa9.svg';
+import aa10 from '@/assets/Adebisi Abimbola/aa10.svg';
 
 
 export const apartments: Apartment[] = [
@@ -276,6 +286,11 @@ export const apartments: Apartment[] = [
         zone: 'Island',
         price: 250000,
         images: [
+            aa6,
+            aa7,
+            aa8,
+            aa9,
+            aa10
 
         ],
         description: 'Serene 3-bedroom maisonette on the island, off Ajose Adeogun Street in Victoria Island.',
@@ -441,7 +456,12 @@ export const apartments: Apartment[] = [
         zone: 'Island',
         price: 40000000,
         images: [
-
+            aa1,
+            aa2,
+            aa3,
+            aa4,
+            aa5,
+            aa10
         ],
         description: 'Serene 3-bedroom maisonette on the island, off Ajose Adeogun Street in Victoria Island.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
