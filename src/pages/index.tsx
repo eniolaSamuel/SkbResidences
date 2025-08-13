@@ -19,7 +19,7 @@ const Index = () => {
         bookingType: 'all',
         purpose: 'all',
         location: 'all',
-        priceRange: [0, 200000]
+        priceRange: [0, 50000000]
     });
 
     const filteredApartments = useMemo(() => {
