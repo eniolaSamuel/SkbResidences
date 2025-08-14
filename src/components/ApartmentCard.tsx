@@ -86,17 +86,25 @@ export const ApartmentCard = ({ apartment, onBookNow }: ApartmentCardProps) => {
                     ))}
                     {apartment.amenities.length > 3 && (
                         <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
-              +{apartment.amenities.length - 3} more
-            </span>
+                            +{apartment.amenities.length - 3} more
+                        </span>
                     )}
                 </div>
 
                 <div className="flex justify-between items-center">
                     <div>
-            <span className="text-2xl font-bold text-gray-900">
-              {formatPrice(apartment.price)}
-            </span>
-                        <span className="text-gray-600 text-sm">/night</span>
+                        <span className="text-2xl font-bold text-gray-900">
+                            {formatPrice(apartment.price)}
+                        </span>
+                        <span className="text-gray-600 text-sm">
+                           {apartment.bookingType.includes("annual") ? "/year" : "/night"}
+                        </span>
+
+                        {apartment.bookingType.includes("annual")  && apartment.serviceCharge && (
+                            <div className="text-sm text-gray-500">
+                                Service Charge: {formatPrice(apartment.serviceCharge)}
+                            </div>
+                        )}
                     </div>
                     <Button
                         onClick={() => onBookNow(apartment)}
@@ -108,4 +116,4 @@ export const ApartmentCard = ({ apartment, onBookNow }: ApartmentCardProps) => {
             </CardContent>
         </Card>
     );
-}
+};

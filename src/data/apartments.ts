@@ -123,7 +123,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '2',
@@ -145,7 +144,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '3',
@@ -163,7 +161,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '4',
@@ -186,7 +183,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool'],
         bookingType: ['annual'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '5',
@@ -209,7 +205,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '6',
@@ -230,7 +225,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '7',
@@ -254,7 +248,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Gym'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '8',
@@ -276,7 +269,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '9',
@@ -297,7 +289,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '10',
@@ -319,7 +310,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette', 'Parking', 'Security'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '11',
@@ -340,7 +330,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '12',
@@ -359,7 +348,6 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
     {
         id: '13',
@@ -375,7 +363,7 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
+
     },
     {
         id: '14',
@@ -396,9 +384,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Premium executive apartment in the heart of Ikoyi.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool', 'Gym'],
-        bookingType: ['shortlet', 'annual'],
+        bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
     },
 
     {
@@ -420,9 +407,8 @@ export const apartments: Apartment[] = [
         ],
         description: 'Premium executive apartment in the heart of Ikoyi.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool', 'Gym'],
-        bookingType: ['shortlet', 'annual'],
+        bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'business'],
-        serviceCharge: null
     },
 
     {
@@ -443,9 +429,9 @@ export const apartments: Apartment[] = [
         ],
         description: 'Affordable 2-bedroom flat in peaceful Ogba neighborhood.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
-        bookingType: ['annual'],
+        bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: null
+
     },
 
     {
@@ -468,7 +454,7 @@ export const apartments: Apartment[] = [
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking'],
         bookingType: ['annual'],
         bookingPurpose: ['vacation', 'event', 'business'],
-        serviceCharge: '3500000'
+        serviceCharge: 3500000
     },
 ];
 
