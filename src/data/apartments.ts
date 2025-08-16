@@ -14,6 +14,8 @@ import jobfSeven from '@/assets/Adeniyi Jones 1 Bed Flat/jones-obf-img7.svg';
 import jssOne from '@/assets/Adeniyi Jones Standard Studio/jones-ssOne.svg';
 import jssTwo from '@/assets/Adeniyi Jones Standard Studio/jones-ssThree.svg';
 import jssThree from '@/assets/Adeniyi Jones Standard Studio/jones-ssTwo.svg';
+import jssFour from '@/assets/Adeniyi Jones Standard Studio/jones-ssFour.svg';
+import jssFive from '@/assets/Adeniyi Jones Standard Studio/jones-ssFive.svg';
 import ddcOne from '@/assets/DideoluCourtTwoBed/ddcImg1.svg';
 import ddcTwo from '@/assets/DideoluCourtTwoBed/ddcImg2.svg';
 import ddcThree from '@/assets/DideoluCourtTwoBed/ddcImg3.svg';
@@ -155,7 +157,9 @@ export const apartments: Apartment[] = [
         images: [
             jssOne,
             jssTwo,
-            jssThree
+            jssThree,
+            jssFour,
+            jssFive
         ],
         description: 'Affordable studio apartment in Alausa business district.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchenette'],
