@@ -296,7 +296,7 @@ export const apartments: Apartment[] = [
         type: 'Executive Studio',
         location: 'Adeniyi Jones, Ikeja',
         zone: 'Mainland',
-        price: 35000,
+        price: 45000,
         images: [
             ajex1,
             ajex2,
