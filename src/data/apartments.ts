@@ -274,8 +274,30 @@ export const apartments: Apartment[] = [
         bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
     },
+
     {
         id: '9',
+        name: '2 Bedroom @ Talabi Estate',
+        type: '2 Bedroom',
+        location: 'Talabi Estate, Adeniyi Jones, Ikeja',
+        zone: 'Mainland',
+        price: 90000,
+        images: [
+            se1,
+            se2,
+            se3,
+            se4,
+            se5,
+            se6,
+            se7
+        ],
+        description: 'Modern 2-bedroom apartment in serene estate environment.',
+        amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
+        bookingType: ['shortlet'],
+        bookingPurpose: ['vacation', 'event', 'business'],
+    },
+    {
+        id: '10',
         name: '3 Bedroom Mansionette Duplex @ Adebisi Abimbola Street, VI',
         type: '3 Bedroom',
         location: 'Adebisi Abimbola Street, VI',
@@ -295,7 +317,7 @@ export const apartments: Apartment[] = [
         bookingPurpose: ['vacation', 'event', 'business'],
     },
     {
-        id: '10',
+        id: '11',
         name: 'Executive Studio @ Adeniyi Jones',
         type: 'Executive Studio',
         location: 'Adeniyi Jones, Ikeja',
@@ -316,7 +338,7 @@ export const apartments: Apartment[] = [
         bookingPurpose: ['vacation', 'event', 'business'],
     },
     {
-        id: '11',
+        id: '12',
         name: 'Standard Studio @ Ishola Bello, Alausa Ikeja',
         type: 'Standard Studio',
         location: 'Alausa, Ikeja',
@@ -336,7 +358,7 @@ export const apartments: Apartment[] = [
         bookingPurpose: ['vacation', 'event', 'business'],
     },
     {
-        id: '12',
+        id: '13',
         name: 'Executive 1 Bedroom @ Rev. Ogunbiyi, GRA',
         type: 'Executive 1 Bedroom',
         location: 'Rev. Ogunbiyi, GRA, Ikeja',
@@ -354,7 +376,7 @@ export const apartments: Apartment[] = [
         bookingPurpose: ['vacation', 'event', 'business'],
     },
     {
-        id: '13',
+        id: '14',
         name: 'Mini Flat @ Rev. Ogunbiyi, GRA',
         type: 'Mini Flat',
         location: 'Rev. Ogunbiyi, GRA, Ikeja',
@@ -370,7 +392,7 @@ export const apartments: Apartment[] = [
 
     },
     {
-        id: '14',
+        id: '15',
         name: 'Executive 1 Bedroom @ Keffi Street, Ikoyi',
         type: 'Executive 1 Bedroom',
         location: 'Keffi Street, Ikoyi',
@@ -393,7 +415,7 @@ export const apartments: Apartment[] = [
     },
 
     {
-        id: '15',
+        id: '16',
         name: 'Furnished studios @ Kofo Abayomi, VI',
         type: 'Standard Studio',
         location: 'Kofo Abayomi, VI',
@@ -416,7 +438,7 @@ export const apartments: Apartment[] = [
     },
 
     {
-        id: '16',
+        id: '17',
         name: '2 Bedroom @ George Crescent, Wemco',
         type: '2 Bedroom',
         location: 'George Crescent, Wemco, Ogba, Ikeja',
@@ -439,7 +461,7 @@ export const apartments: Apartment[] = [
     },
 
     {
-        id: '17',
+        id: '18',
         name: '3 Bedroom Mansionette Duplex @ Adebisi Abimbola Street, VI',
         type: '3 Bedroom',
         location: 'Adebisi Abimbola Street, VI',
@@ -470,6 +492,7 @@ export const locations = [
     'Ladoke Akintola, GRA, Ikeja',
     'Shonibare Estate, Ikeja',
     'George Crescent, Wempco, Ogba, Ikeja',
+    'Talabi Estate, Adeniyi Jones, Ikeja',
     'Adeniyi Jones, Ikeja',
     'Keffi Street, Ikoyi',
     'Kofo Abayomi, VI',
