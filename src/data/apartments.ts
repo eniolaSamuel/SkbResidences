@@ -104,6 +104,12 @@ import aa7 from '@/assets/Adebisi Abimbola/aa7.svg';
 import aa8 from '@/assets/Adebisi Abimbola/aa8.svg';
 import aa9 from '@/assets/Adebisi Abimbola/aa9.svg';
 import aa10 from '@/assets/Adebisi Abimbola/aa10.svg';
+import te1 from '@/assets/Talabi Estate/teOne.svg';
+import te2 from '@/assets/Talabi Estate/teTwo.svg';
+import te3 from '@/assets/Talabi Estate/teThree.svg';
+import te4 from '@/assets/Talabi Estate/teFour.svg';
+import te5 from '@/assets/Talabi Estate/teFive.svg';
+import te6 from '@/assets/Talabi Estate/teSix.svg';
 
 
 export const apartments: Apartment[] = [
@@ -283,13 +289,12 @@ export const apartments: Apartment[] = [
         zone: 'Mainland',
         price: 90000,
         images: [
-            se1,
-            se2,
-            se3,
-            se4,
-            se5,
-            se6,
-            se7
+            te1,
+            te2,
+            te3,
+            te4,
+            te5,
+            te6
         ],
         description: 'Modern 2-bedroom apartment in serene estate environment.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security'],
