@@ -5,44 +5,56 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Calendar, MapPin, ArrowRight, Bell } from 'lucide-react';
+
+import adn1 from '@/assets/Adeniyi Jones, New/ADNOne.svg';
+import adn2 from '@/assets/Adeniyi Jones, New/ADNTwo.svg';
+import adn3 from '@/assets/Adeniyi Jones, New/ADNThree.svg';
+import adn4 from '@/assets/Adeniyi Jones, New/ADNFour.svg';
+import adn5 from '@/assets/Adeniyi Jones, New/ADNFive.svg';
+import adn6 from '@/assets/Adeniyi Jones, New/ADNSix.svg';
+import i1 from '@/assets/Ilupeju/IOne.svg';
+import i2 from '@/assets/Ilupeju/ITwo.svg';
+import i3 from '@/assets/Ilupeju/IThree.svg';
 
 const Advertisements = () => {
     const [email, setEmail] = useState('');
     const { toast } = useToast();
 
-    // News and announcements - easily add new items here
     const newsItems = [
         {
             id: 1,
             title: 'New SKB Residences Building Available Soon in Ilupeju',
-            description: 'We are excited to announce our latest development in Ilupeju! Modern 2 and 3 bedroom apartments with premium finishes, 24/7 security, and excellent transport links. Early bird pricing available for the first 20 units.',
-            image: "/logo.svg",
+            description: 'We are excited to announce our latest development in Ilupeju! 6 numbers of Modern 3 bedroom apartments with premium finishes, 24/7 security, and excellent transport links for mixed use. Block of Residential or Commercial Space.',
+            images: [
+                i1,
+                i2,
+                i3
+            ],
             location: 'Ilupeju, Lagos',
             date: '2025-08-27',
             isNew: true,
             details: 'Starting from ₦15M. Features include: Modern kitchen appliances, Air conditioning, Backup generator, Swimming pool, Gym facility, Children playground'
         },
-        // {
-        //     id: 2,
-        //     title: 'SKB Residences Introduces Flexible Payment Plans',
-        //     description: 'We now offer more flexible payment options to make your dream home more affordable. Choose from monthly, quarterly, or annual payment plans with competitive rates.',
-        //     image: '/lovable-uploads/4caeb3fb-762b-4176-955e-762a36148cb7.png',
-        //     location: 'All Locations',
-        //     date: '2024-02-10',
-        //     isNew: false,
-        //     details: 'Contact our sales team to learn more about payment options that work for your budget.'
-        // },
-        // {
-        //     id: 3,
-        //     title: 'SKB Residences Customer Service Excellence Award',
-        //     description: 'We are proud to announce that SKB Residences has been awarded the Customer Service Excellence Award 2024 by the Lagos Real Estate Association.',
-        //     image: '/lovable-uploads/4caeb3fb-762b-4176-955e-762a36148cb7.png',
-        //     location: 'Lagos, Nigeria',
-        //     date: '2024-02-01',
-        //     isNew: false,
-        //     details: 'This recognition reflects our commitment to providing exceptional service to all our residents and clients.'
-        // }
+        {
+            id: 2,
+            title: 'New Acquired Space @ Adeniyi Jones Avenue, Ikeja.',
+            description: 'We are excited to announce our latest development in Ilupeju! Modern 2 and 3 bedroom apartments with premium finishes, 24/7 security, and excellent transport links. Early bird pricing available for the first 5 units.',
+            images: [
+                adn1,
+                adn2,
+                adn3,
+                adn4,
+                adn5,
+                adn6
+            ],
+            location: 'Adeniyi Jones',
+            date: '2025-08-27',
+            isNew: false,
+            details: 'Coming on Stream by November, 2025. Contact our sales team to learn more about payment options that work for your budget.'
+        },
+
     ];
 
     const handleSubscribe = (e: React.FormEvent) => {
@@ -96,14 +108,30 @@ const Advertisements = () => {
                                 <Card key={news.id} className="group hover:shadow-lg transition-all duration-300">
                                     <div className="flex flex-col md:flex-row">
                                         <div className="md:w-1/3">
-                                            <div className="relative overflow-hidden rounded-t-lg md:rounded-l-lg md:rounded-t-none h-48 md:h-full">
-                                                <img
-                                                    src={news.image}
-                                                    alt={news.title}
-                                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                                                />
+                                            <div className="relative rounded-t-lg md:rounded-l-lg md:rounded-t-none h-48 md:h-full">
+                                                <Carousel className="w-full h-full">
+                                                    <CarouselContent>
+                                                        {news.images.map((image, index) => (
+                                                            <CarouselItem key={index}>
+                                                                <div className="relative overflow-hidden rounded-t-lg md:rounded-l-lg md:rounded-t-none h-48 md:h-full">
+                                                                    <img
+                                                                        src={image}
+                                                                        alt={`${news.title} - Image ${index + 1}`}
+                                                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                                                    />
+                                                                </div>
+                                                            </CarouselItem>
+                                                        ))}
+                                                    </CarouselContent>
+                                                    {news.images.length > 1 && (
+                                                        <>
+                                                            <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2" />
+                                                            <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2" />
+                                                        </>
+                                                    )}
+                                                </Carousel>
                                                 {news.isNew && (
-                                                    <div className="absolute top-4 left-4">
+                                                    <div className="absolute top-4 left-4 z-10">
                                                         <Badge className="bg-green-100 text-green-800 animate-pulse">
                                                             NEW
                                                         </Badge>
