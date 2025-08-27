@@ -19,9 +19,9 @@ const Advertisements = () => {
             description: 'We are excited to announce our latest development in Ilupeju! Modern 2 and 3 bedroom apartments with premium finishes, 24/7 security, and excellent transport links. Early bird pricing available for the first 20 units.',
             image: "/logo.svg",
             location: 'Ilupeju, Lagos',
-            date: '2024-02-15',
+            date: '2025-08-27',
             isNew: true,
-            details: 'Starting from ₦25M. Features include: Modern kitchen appliances, Air conditioning, Backup generator, Swimming pool, Gym facility, Children playground'
+            details: 'Starting from ₦15M. Features include: Modern kitchen appliances, Air conditioning, Backup generator, Swimming pool, Gym facility, Children playground'
         },
         // {
         //     id: 2,
