@@ -101,11 +101,17 @@ export const Navbar = () => {
                         >
                             Contact
                         </button>
+                        <a
+                            href="/advertisements"
+                            className="text-gray-900 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                        >
+                            News & Projects
+                        </a>
                         <Button
                             onClick={handleWhatsAppChat}
                             className="bg-green-600 hover:bg-green-700 text-white flex items-center gap-2 w-full mt-4"
                         >
-                            <MessageCircle className="w-4 h-4" />
+                            <MessageCircle className="w-4 h-4"/>
                             Chat on WhatsApp
                         </Button>
                     </div>
