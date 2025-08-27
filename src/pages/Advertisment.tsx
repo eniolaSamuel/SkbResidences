@@ -15,7 +15,7 @@ const Advertisements = () => {
     const newsItems = [
         {
             id: 1,
-            title: 'New SKB Residences Building Now Available in Ilupeju',
+            title: 'New SKB Residences Building Available Soon in Ilupeju',
             description: 'We are excited to announce our latest development in Ilupeju! Modern 2 and 3 bedroom apartments with premium finishes, 24/7 security, and excellent transport links. Early bird pricing available for the first 20 units.',
             image: "/logo.svg",
             location: 'Ilupeju, Lagos',
