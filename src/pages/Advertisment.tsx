@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Navbar } from '@/components/Navbar';
+import { Navbar } from '@/components/NavBar.tsx';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -17,32 +17,32 @@ const Advertisements = () => {
             id: 1,
             title: 'New SKB Residences Building Now Available in Ilupeju',
             description: 'We are excited to announce our latest development in Ilupeju! Modern 2 and 3 bedroom apartments with premium finishes, 24/7 security, and excellent transport links. Early bird pricing available for the first 20 units.',
-            image: '/lovable-uploads/4caeb3fb-762b-4176-955e-762a36148cb7.png',
+            image: "/logo.svg",
             location: 'Ilupeju, Lagos',
             date: '2024-02-15',
             isNew: true,
             details: 'Starting from ₦25M. Features include: Modern kitchen appliances, Air conditioning, Backup generator, Swimming pool, Gym facility, Children playground'
         },
-        {
-            id: 2,
-            title: 'SKB Residences Introduces Flexible Payment Plans',
-            description: 'We now offer more flexible payment options to make your dream home more affordable. Choose from monthly, quarterly, or annual payment plans with competitive rates.',
-            image: '/lovable-uploads/4caeb3fb-762b-4176-955e-762a36148cb7.png',
-            location: 'All Locations',
-            date: '2024-02-10',
-            isNew: false,
-            details: 'Contact our sales team to learn more about payment options that work for your budget.'
-        },
-        {
-            id: 3,
-            title: 'SKB Residences Customer Service Excellence Award',
-            description: 'We are proud to announce that SKB Residences has been awarded the Customer Service Excellence Award 2024 by the Lagos Real Estate Association.',
-            image: '/lovable-uploads/4caeb3fb-762b-4176-955e-762a36148cb7.png',
-            location: 'Lagos, Nigeria',
-            date: '2024-02-01',
-            isNew: false,
-            details: 'This recognition reflects our commitment to providing exceptional service to all our residents and clients.'
-        }
+        // {
+        //     id: 2,
+        //     title: 'SKB Residences Introduces Flexible Payment Plans',
+        //     description: 'We now offer more flexible payment options to make your dream home more affordable. Choose from monthly, quarterly, or annual payment plans with competitive rates.',
+        //     image: '/lovable-uploads/4caeb3fb-762b-4176-955e-762a36148cb7.png',
+        //     location: 'All Locations',
+        //     date: '2024-02-10',
+        //     isNew: false,
+        //     details: 'Contact our sales team to learn more about payment options that work for your budget.'
+        // },
+        // {
+        //     id: 3,
+        //     title: 'SKB Residences Customer Service Excellence Award',
+        //     description: 'We are proud to announce that SKB Residences has been awarded the Customer Service Excellence Award 2024 by the Lagos Real Estate Association.',
+        //     image: '/lovable-uploads/4caeb3fb-762b-4176-955e-762a36148cb7.png',
+        //     location: 'Lagos, Nigeria',
+        //     date: '2024-02-01',
+        //     isNew: false,
+        //     details: 'This recognition reflects our commitment to providing exceptional service to all our residents and clients.'
+        // }
     ];
 
     const handleSubscribe = (e: React.FormEvent) => {
