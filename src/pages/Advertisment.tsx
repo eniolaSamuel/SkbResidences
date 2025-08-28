@@ -33,7 +33,7 @@ const Advertisements = () => {
                 i3
             ],
             location: 'Ilupeju, Lagos',
-            date: '2025-08-27',
+            date: '2025-08-28',
             isNew: true,
             details: 'Starting from ₦15M. Features include: Modern kitchen appliances, Air conditioning, Backup generator, Swimming pool, Gym facility, Children playground'
         },
@@ -50,7 +50,7 @@ const Advertisements = () => {
                 adn6
             ],
             location: 'Adeniyi Jones',
-            date: '2025-08-27',
+            date: '2025-08-28',
             isNew: false,
             details: 'Coming on Stream by November, 2025. Contact our sales team to learn more about payment options that work for your budget.'
         },
