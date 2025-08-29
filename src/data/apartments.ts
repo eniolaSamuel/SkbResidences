@@ -191,7 +191,7 @@ export const apartments: Apartment[] = [
         ],
         description: 'Spacious 3-bedroom apartment perfect for families.',
         amenities: ['WiFi', 'Air Conditioning', 'Kitchen', 'Parking', 'Security', 'Generator', 'Swimming Pool'],
-        bookingType: ['annual'],
+        bookingType: ['shortlet'],
         bookingPurpose: ['vacation', 'event', 'business'],
     },
     {
