@@ -134,7 +134,7 @@ export const apartments: Apartment[] = [
     },
     {
         id: '2',
-        name: 'Executive 1 Bedroom Flat @ Adeniyi Jones Avenue',
+        name: 'Standard 1 Bedroom Flat @ Adeniyi Jones Avenue',
         type: 'Executive 1 Bedroom',
         location: 'Adeniyi Jones Avenue, Ikeja',
         zone: 'Mainland',
